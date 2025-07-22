@@ -2,7 +2,7 @@ function addChar(str) {
   let len = str.length;
   let s = 0;
   let e = len - 1;
-  let res = 1;
+  let res = 0;
 
   while (s < e) {
     if (str[s] === str[e]) {
